@@ -1,0 +1,582 @@
+
+
+
+<!doctype html>
+<html lang="en">
+
+<!-- Mirrored from arimas.org/journal-sub-register.php by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 04 Sep 2021 19:44:29 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	<title>Individual Member Registration</title>
+
+	<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+    <meta name="viewport" content="width=device-width" />
+
+	<!--     Fonts and icons     -->
+	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons" />
+	<link rel="stylesheet" href="../maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" />
+    <link rel="shortcut icon" href="../ngomacommunications.com/images/drum.html" />
+
+	<!-- CSS Files -->
+	<link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+	<link href="assets/css/material-bootstrap-wizard.css" rel="stylesheet" />
+<style type="text/css">
+	body{font-size: 11px !important;
+		/*background-color: #27282A*/}
+	.d{font-size: 10px!important;}
+	.wizard-card[data-color="green"] .moving-tab {
+		font-size: large;
+	}
+
+	.form-group.label-floating.prfx {
+    width: 10%;
+}
+</style>
+</head>
+
+
+<body>
+	<div class="image-container set-full-height" style="background-color: #27282A">
+
+	    <!--   Big container   -->
+	    <div class="container d" style="font-size: 10px!important">
+	        <div class="row d" >
+		        <div class="col-sm-8 col-sm-offset-2">
+		            <!--      Wizard container        -->
+		            <div class="wizard-container d">
+		                <div class="card wizard-card d" data-color="green" id="wizard" style="background: #44484c">
+							<form action="https://arimas.org/journalSubscribeApplication.php" method="POST" style="background: #44484c;"  enctype="multipart/form-data">
+		                    		
+								<div class="wizard-navigation">
+									<ul>
+			                            <li><a href="#personal" data-toggle="tab" style="color: #fff !important">
+			                            	SUBSCRIBER REGISTRATION
+			                        </a></li>
+			                        </ul>
+			                        
+								</div>
+
+		                        <div class="tab-content">
+
+		                            <div class="tab-pane" id="personal">
+		                            	<div class="row">
+			                            	<div class="col-sm-12">
+			                                	<h4 class="info-text" style="color: gray">All required fields are marked * and should be filled.</h4>
+
+											
+
+											<div class="input-group">
+													<span class="input-group-addon">
+														<i class="material-icons" style="color: gray">person</i>
+
+													</span>
+													<div class="form-group label-floating prfx">
+			                                          	<label class="control-label" style="color: gray">Title *</label>
+			                                          	<select name="prfx" class="form-control" style="color: #fff; background-color:#54585c;" required>
+			                                          		<option value="mr">Mr</option>
+			                                          		<option value="mrs">Mrs</option>
+			                                          		<option value="ms">Ms</option>
+			                                          	</select>
+
+
+			                                        </div>
+
+			                                        	<div class="form-group label-floating prfx">
+			                                         <input type="hidden" name="user" value="8">
+			                            
+			                            </div>
+												</div>
+
+											</div>
+
+
+
+
+									<div class="col-sm-6">
+										<div class="input-group">
+													<span class="input-group-addon">
+														<i class="material-icons" style="color: gray">person</i>
+													</span>
+													<div class="form-group label-floating">
+			                                          	<label class="control-label" style="color: gray">First Name *</label>
+			                                          	<input name="firstName" type="text" class="form-control" style="color: #fff" required>
+			                                          	
+			                                        </div>
+												</div>
+
+											<div class="input-group">
+													<span class="input-group-addon">
+														<i class="material-icons" style="color: gray">person</i>
+													</span>
+													<div class="form-group label-floating">
+			                                          	<label class="control-label" style="color: gray">Last Name *</label>
+			                                          	<input name="lastName" type="text" class="form-control" style="color: #fff" required>
+			                                        </div>
+												</div>
+										</div>
+
+
+
+
+										<div class="col-sm-6">
+
+											<div class="input-group">
+													<span class="input-group-addon">
+														<i class="material-icons" style="color: gray">person</i>
+													</span>
+													<div class="form-group label-floating">
+			                                          	<label class="control-label" style="color: gray">Middle Name *</label>
+			                                          	<input name="middleName" type="text" class="form-control" style="color: #fff" required>
+			                                		</div>
+											</div>
+											<div class="input-group">
+													<span class="input-group-addon">
+														<i class="material-icons" style="color: gray">email</i>
+													</span>
+													<div class="form-group label-floating">
+			                                          	<label class="control-label" style="color: gray">Email *</label>
+			                                          	<input name="email" type="text" class="form-control" style="color: #fff" required>
+			                                        </div>
+												</div>
+
+											</div>
+
+											<div class="col-sm-6">
+													<div class="input-group">
+		                                			<span class="input-group-addon">
+														<i class="material-icons" style="color: gray">language</i>
+													</span>
+			                                		<div class="form-group label-floating">
+			                                        	<label class="control-label">Country*</label>
+		                                        		<select class="form-control valid" style="color: #fff; background-color:#54585c;" name="country" aria-invalid="false">
+																<option>Afghanistan</option>
+																<option>Albania</option>
+																<option>Algeria</option>
+																<option>Andorra</option>
+																<option>Angola</option>
+																<option>Antigua & Deps</option>
+																<option>Argentina</option>
+																<option>Armenia</option>
+																<option>Australia</option>
+																<option>Austria</option>
+																<option>Azerbaijan</option>
+																<option>Bahamas</option>
+																<option>Bahrain</option>
+																<option>Bangladesh</option>
+																<option>Barbados</option>
+																<option>Belarus</option>
+																<option>Belgium</option>
+																<option>Belize</option>
+																<option>Benin</option>
+																<option>Bhutan</option>
+																<option>Bolivia</option>
+																<option>Bosnia Herzegovina</option>
+																<option>Botswana</option>
+																<option>Brazil</option>
+																<option>Brunei</option>
+																<option>Bulgaria</option>
+																<option>Burkina</option>
+																<option>Burundi</option>
+																<option>Cambodia</option>
+																<option>Cameroon</option>
+																<option>Canada</option>
+																<option>Cape Verde</option>
+																<option>Central African Rep</option>
+																<option>Chad</option>
+																<option>Chile</option>
+																<option>China</option>
+																<option>Colombia</option>
+																<option>Comoros</option>
+																<option>Congo Brazzerville</option>
+																<option>Congo Democratic Rep</option>
+																<option>Costa Rica</option>
+																<option>Croatia</option>
+																<option>Cuba</option>
+																<option>Cyprus</option>
+																<option>Czech Republic</option>
+																<option>Denmark</option>
+																<option>Djibouti</option>
+																<option>Dominica</option>
+																<option>Dominican Republic</option>
+																<option>East Timor</option>
+																<option>Ecuador</option>
+																<option>Egypt</option>
+																<option>El Salvador</option>
+																<option>Equatorial Guinea</option>
+																<option>Eritrea</option>
+																<option>Estonia</option>
+																<option>Ethiopia</option>
+																<option>Fiji</option>
+																<option>Finland</option>
+																<option>France</option>
+																<option>Gabon</option>
+																<option>Gambia</option>
+																<option>Georgia</option>
+																<option>Germany</option>
+																<option>Ghana</option>
+																<option>Greece</option>
+																<option>Grenada</option>
+																<option>Guatemala</option>
+																<option>Guinea</option>
+																<option>Guinea-Bissau</option>
+																<option>Guyana</option>
+																<option>Haiti</option>
+																<option>Honduras</option>
+																<option>Hungary</option>
+																<option>Iceland</option>
+																<option>India</option>
+																<option>Indonesia</option>
+																<option>Iran</option>
+																<option>Iraq</option>
+																<option>Ireland {Republic}</option>
+																<option>Israel</option>
+																<option>Italy</option>
+																<option>Ivory Coast</option>
+																<option>Jamaica</option>
+																<option>Japan</option>
+																<option>Jordan</option>
+																<option>Kazakhstan</option>
+																<option>Kenya</option>
+																<option>Kiribati</option>
+																<option>Korea North</option>
+																<option>Korea South</option>
+																<option>Kosovo</option>
+																<option>Kuwait</option>
+																<option>Kyrgyzstan</option>
+																<option>Laos</option>
+																<option>Latvia</option>
+																<option>Lebanon</option>
+																<option>Lesotho</option>
+																<option>Liberia</option>
+																<option>Libya</option>
+																<option>Liechtenstein</option>
+																<option>Lithuania</option>
+																<option>Luxembourg</option>
+																<option>Macedonia</option>
+																<option>Madagascar</option>
+																<option>Malawi</option>
+																<option>Malaysia</option>
+																<option>Maldives</option>
+																<option>Mali</option>
+																<option>Malta</option>
+																<option>Marshall Islands</option>
+																<option>Mauritania</option>
+																<option>Mauritius</option>
+																<option>Mexico</option>
+																<option>Micronesia</option>
+																<option>Moldova</option>
+																<option>Monaco</option>
+																<option>Mongolia</option>
+																<option>Montenegro</option>
+																<option>Morocco</option>
+																<option>Mozambique</option>
+																<option>Myanmar, {Burma}</option>
+																<option>Namibia</option>
+																<option>Nauru</option>
+																<option>Nepal</option>
+																<option>Netherlands</option>
+																<option>New Zealand</option>
+																<option>Nicaragua</option>
+																<option>Niger</option>
+																<option>Nigeria</option>
+																<option>Norway</option>
+																<option>Oman</option>
+																<option>Pakistan</option>
+																<option>Palau</option>
+																<option>Panama</option>
+																<option>Papua New Guinea</option>
+																<option>Paraguay</option>
+																<option>Peru</option>
+																<option>Philippines</option>
+																<option>Poland</option>
+																<option>Portugal</option>
+																<option>Qatar</option>
+																<option>Romania</option>
+																<option>Russian Federation</option>
+																<option>Rwanda</option>
+																<option>St Kitts & Nevis</option>
+																<option>St Lucia</option>
+																<option>Saint Vincent & the Grenadines</option>
+																<option>Samoa</option>
+																<option>San Marino</option>
+																<option>Sao Tome & Principe</option>
+																<option>Saudi Arabia</option>
+																<option>Senegal</option>
+																<option>Serbia</option>
+																<option>Seychelles</option>
+																<option>Sierra Leone</option>
+																<option>Singapore</option>
+																<option>Slovakia</option>
+																<option>Slovenia</option>
+																<option>Solomon Islands</option>
+																<option>Somalia</option>
+																<option>South Africa</option>
+																<option>South Sudan</option>
+																<option>Spain</option>
+																<option>Sri Lanka</option>
+																<option>Sudan</option>
+																<option>Suriname</option>
+																<option>Swaziland</option>
+																<option>Sweden</option>
+																<option>Switzerland</option>
+																<option>Syria</option>
+																<option>Taiwan</option>
+																<option>Tajikistan</option>
+																<option>Tanzania</option>
+																<option>Thailand</option>
+																<option>Togo</option>
+																<option>Tonga</option>
+																<option>Trinidad & Tobago</option>
+																<option>Tunisia</option>
+																<option>Turkey</option>
+																<option>Turkmenistan</option>
+																<option>Tuvalu</option>
+																<option>Uganda</option>
+																<option>Ukraine</option>
+																<option>United Arab Emirates</option>
+																<option>United Kingdom</option>
+																<option>United States</option>
+																<option>Uruguay</option>
+																<option>Uzbekistan</option>
+																<option>Vanuatu</option>
+																<option>Vatican City</option>
+																<option>Venezuela</option>
+																<option>Vietnam</option>
+																<option>Yemen</option>
+																<option>Zambia</option>
+																<option>Zimbabwe</option>
+																</select>
+			                                    	</div>
+			                                    	
+			                                    </div>
+
+			                                    <div class="input-group">
+													<span class="input-group-addon">
+														<i class="material-icons" style="color: gray">location_city</i>
+													</span>
+													<div class="form-group label-floating">
+			                                          	<label class="control-label" style="color: gray">City *</label>
+			                                          	<input name="city" type="text" class="form-control" style="color: #fff" required>
+			                                        </div>
+												</div>
+
+		                                	</div>								
+											<div class="col-sm-6">
+												<div class="input-group">
+													<span class="input-group-addon">
+														<i class="material-icons" style="color: gray">cake</i>
+													</span>
+													<div class="form-group label-floating">
+			                                          	<label style="color: gray;padding-bottom: 0px;">Date Of Birth *</label>
+			                                          	<input name="date" type="date" class="form-control" style="color: #fff" required>
+			                                        </div>
+												</div>
+
+												<div class="input-group">
+													<span class="input-group-addon">
+														<i class="material-icons" style="color: gray">map</i>
+													</span>
+													<div class="form-group label-floating">
+			                                          	<label class="control-label" style="color: gray">Province | State *</label>
+			                                          	<input name="state" type="text" class="form-control" style="color: #fff" required>
+			                                        </div>
+												</div>
+											</div>
+
+
+											<div class="col-sm-6">
+												<div class="input-group">
+													<span class="input-group-addon">
+														<i class="material-icons" style="color: gray">business_center</i>
+													</span>
+													<div class="form-group label-floating">
+			                                          	<label class="control-label" style="color: gray">Company Name *</label>
+			                                          	<input name="companyName" type="text" class="form-control" style="color: #fff" required>
+			                                        </div>
+												</div>
+
+												<div class="input-group">
+													<span class="input-group-addon">
+														<i class="material-icons" style="color: gray">business_center</i>
+													</span>
+													<div class="form-group label-floating">
+			                                          	<label class="control-label" style="color: gray">Department *</label>
+			                                          	<input name="department" type="text" class="form-control" style="color: #fff" required>
+			                                        </div>
+												</div>
+											</div>
+
+											<div class="col-sm-6">
+
+
+												<div class="input-group">
+													<span class="input-group-addon">
+														<i class="material-icons" style="color: gray">business_center</i>
+													</span>
+													<div class="form-group label-floating">
+			                                          	<label class="control-label" style="color: gray">Position/Function *</label>
+			                                          	<input name="position" type="text" class="form-control" style="color: #fff" required>
+			                                        </div>
+												</div>
+
+
+
+											</div>
+
+											<div class="col-sm-6">
+												<div class="input-group">
+													<span class="input-group-addon">
+														<i class="material-icons" style="color: gray">phone</i>
+													</span>
+													<div class="form-group label-floating">
+			                                          	<label class="control-label" style="color: gray">Contact Number *</label>
+			                                          	<input name="phone" type="number" class="form-control" style="color: #fff" required>
+			                                        </div>
+												</div>
+											</div>
+											<div class="col-sm-6">
+												<div class="input-group">
+													<span class="input-group-addon">
+														<i class="material-icons" style="color: gray">perm_media</i>
+													</span>
+													
+			                                          	<label>
+			                                          		Upload File</br>
+															  <div class="">
+																<input type="file" name="upload" >
+																
+															</div>
+			                                          	</label>
+
+			                                        <span class="material-input"></span>
+
+
+												</div>
+											</div>
+											<br/>
+											<div class="row pull-left">
+											</div>
+
+											</div>
+		                            	</div>
+		                            </div>
+
+		                            	</div>
+		                            </div>
+
+
+
+	                        	<div class="wizard-footer">
+	                            	<div class="pull-right">
+	                                    <input type='submit' class='btn btn-finish btn-fill btn-primary btn-wd' name='Proceed' value='Proceed' />
+	                                </div> </form>
+	                                <div class="pull-left">
+
+	                                    
+	                                    <a href="index-2.html" class="btn btn-previous btn-fill btn-default btn-wd">HOME</a>
+
+										<div class="footer-checkbox">
+											<div class="col-sm-12">
+										  </div>
+										</div>
+	                                </div>
+	                                <div class="clearfix"></div>
+	                        	</div>
+
+		                   
+		                </div>
+		            </div> 
+		            <!-- wizard container -->
+		        </div>
+	    	</div> 
+	    	<!-- row -->
+		</div> 
+		<!--  big container -->
+
+	   
+	</div>
+
+</body>
+	<!--   Core JS Files   -->
+	<script src="assets/js/jquery-2.2.4.min.js" type="text/javascript"></script>
+	<script src="assets/js/bootstrap.min.js" type="text/javascript"></script>
+	<script src="assets/js/jquery.bootstrap.js" type="text/javascript"></script>
+
+	<!--  Plugin for the Wizard -->
+	<script src="assets/js/jquery.bootstrap.js" type="text/javascript"></script>
+
+
+	<script type="text/javascript">
+
+	
+		
+		$( document).ready(function() {
+
+		   $(document).on('input','#participants',function(){
+
+		   var participants = $(this).val();
+		   var total = $("#Figure").val() * participants; //price
+		   var discountedAmount = "";
+		   var adiscount = "";
+		   var totaAmnt = "";
+
+		   if(participants > 2){
+		   			//discount range 3 -10
+		   			$(".btn-next").fadeIn(500);
+		   			$(".warningText").text(" ");
+			   	if(participants >=5 && participants <=10){
+				   	adiscount = 2.5+"%";
+				   	discounted = total * 0.025;
+				   	totaAmnt = total - discounted;
+				   	//discount range 11 - 20
+			   }else if(participants >=11 && participants <=21){
+				   	adiscount =  5+"%";
+				   	discounted = total * 0.05;
+				   	totaAmnt = total - discounted;
+				   	
+				   	//discount -range 21 ++
+			   }else if(participants > 21){
+				   	adiscount =  10+"%" ;
+				   	discounted = total * 0.1;
+				   	totaAmnt = total - discounted;
+			   	
+			   }
+			   $("#tamount").text("R " + total); //total amount without discount
+			   	$("#discountedValue").text("Amount payable: R " + totaAmnt); // the amount payable after discount
+			   	$("#tpart").text(participants); //total number of people attending event
+			   	$("#adiscount").text(adiscount); // the discount percentage
+			   	$("#tdiscount").text("R " + discounted); //total discount value
+			   	$("#eprice").val(totaAmnt);
+
+		   }else{
+		   	$(".btn-next").fadeOut(500);
+		   	$(".warningText").text("Minimum number of participants is 5");
+		   }
+		  
+		   
+		   })
+
+		   	function test(){
+
+		var x = confrim('Are you sure you want to go to homepage');
+
+         if (x == true) {
+          
+         	window.open("https://ngomadigitech/arimas1/","_self")
+
+       } else {
+       txt = "You pressed Cancel!";
+
+       }	
+   }
+		});
+	</script>
+	<script src="assets/js/material-bootstrap-wizard.js"></script>
+
+	<!--  More information about jquery.validate here: http://jqueryvalidation.org/	 -->
+	<script src="assets/js/jquery.validate.min.js"></script>
+
+<!-- Mirrored from arimas.org/journal-sub-register.php by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 04 Sep 2021 19:44:30 GMT -->
+</html>

@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<style type="text/css">
+	.fa-eye{
+  position: absolute;
+  right: 1rem;
+  top: 60%;
+}
+#display{
+  position: absolute;
+  right: 1rem;
+  top: 50%;
+  color: #000;
+}
+</style>
+
+<!-- Mirrored from arimas.org/college/student/login.php by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 04 Sep 2021 19:27:43 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta content="width=device-width, initial-scale=1" name="viewport" />
+	<meta name="description" content="Vinco login" />
+	<meta name="author" content="login " />
+	<title>Vinco || login</title>
+	<!-- google font -->
+	<link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700&amp;subset=all" rel="stylesheet"
+		type="text/css" />
+	<!-- icons -->
+	<link href="fonts/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" href="assets/plugins/iconic/css/material-design-iconic-font.min.css">
+	<!-- bootstrap -->
+	<link href="assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+	<!-- style -->
+	<link rel="stylesheet" href="assets1/css/pages/extra_pages.css">
+	<!-- favicon -->
+	
+<link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="favicon/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="favicon/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+<link rel="manifest" href="favicon/manifest.json">
+
+<!-- google font -->
+	<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet" type="text/css" />
+	<!-- icons -->
+	<link href="fonts/simple-line-icons/simple-line-icons.min.css" rel="stylesheet" type="text/css" />
+	<link href="fonts/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+	<link href="fonts/material-design-icons/material-icon.css" rel="stylesheet" type="text/css" />
+	<!--bootstrap -->
+	<link href="assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+	<link href="assets/plugins/summernote/summernote.css" rel="stylesheet">
+	<!-- Material Design Lite CSS -->
+	<link rel="stylesheet" href="assets/plugins/material/material.min.css">
+	<link rel="stylesheet" href="assets/css/material_style.css">
+	<!-- inbox style -->
+	<link href="assets/css/pages/inbox.min.css" rel="stylesheet" type="text/css" />
+	<!-- Theme Styles -->
+	<link href="assets/css/theme/light/theme_style.css" rel="stylesheet" id="rt_style_components" type="text/css" />
+	<link href="assets/css/plugins.min.css" rel="stylesheet" type="text/css" />
+	<link href="assets/css/theme/light/style.css" rel="stylesheet" type="text/css" />
+	<link href="assets/css/responsive.css" rel="stylesheet" type="text/css" />
+	<link href="assets/css/theme/light/theme-color.css" rel="stylesheet" type="text/css" />
+	<style type="text/css">
+		.page-background {
+    background-image: url(login.jpg);
+}
+	</style>
+</head>
+
+<body>
+	<div class="limiter">
+		<div class="container-login100 page-background">
+			<div class="wrap-login100">
+				<form class="login100-form validate-form">
+				
+					<span class="login100-form-logo">
+						<img alt="" src="../assets/img/logo-2.png">
+					</span>
+					 <p></p>
+                        
+					<span class="login100-form-title p-b-34 p-t-27">
+						Log in
+					</span>
+					<div class="wrap-input100 validate-input" data-validate="Enter username">
+						<input class="input100" type="text" name="username" placeholder="Username">
+						<span class="focus-input100" data-placeholder="&#xf207;"></span>
+					</div>
+					<div class="wrap-input100 validate-input" data-validate="Enter password">
+						<input class="input100" type="password" name="pass" placeholder="Password" id="currentPass">
+					<i onclick="show('currentPass')" title="Show password" class="fa fa-eye-slash" id="display"></i>
+					</div>
+					<p class="text-center text-danger" id="spinner"></p>
+				    <noscript style="color: red;">Javascript not enabled in your browser</noscript>
+					<div class="container-login100-form-btn">
+						<button class="login100-form-btn">
+							Login
+						</button>
+					</div>
+					<div class="text-center p-t-30">
+						<a class="txt1 float-left" href="../../index-2.html" style="text-decoration: underline;">
+                            Home
+                        </a>
+						<a class="txt1" href="forgot.html">
+							Forgot Password?
+						</a>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+	<!-- start js include path -->
+	<script src="assets/plugins/jquery/jquery.min.js"></script>
+	<!-- bootstrap -->
+	<script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+	<script src="assets/js/pages/extra-pages/pages.js"></script>
+	<script type="text/javascript">
+		  $(document).on('submit', '.login100-form', function(e){
+      e.preventDefault();
+      $("#spinner").text("Loading ...");
+      $.ajax({
+        type:"POST",
+        url:"back/validateLogin.php",
+        data:new FormData(this),
+        contentType: false, // The content type used when sending data to the server.
+        cache: false, // To unable request pages to be cached
+        processData:false, // To send DOMDocument or non processed data file it is set to false               
+        success:function(data){
+        if(data == 200){
+         
+         window.location.href='index.html';
+        }else if(data== 201){
+            $("#spinner").text("Incorrect login credentials");
+            setTimeout(function(){
+   window.location.reload(1);
+}, 3000);
+
+        }
+
+        
+        }
+      });
+    });
+
+function show(a) {
+  var x=document.getElementById(a);
+  var c=x.nextElementSibling
+  if (x.getAttribute('type') == "password") {
+  c.removeAttribute("class");
+  c.setAttribute("class","fa fa-eye");
+  x.removeAttribute("type");
+    x.setAttribute("type","text");
+  } else {
+  x.removeAttribute("type");
+    x.setAttribute('type','password');
+ c.removeAttribute("class");
+  c.setAttribute("class","fa fa-eye-slash");
+  }
+}
+	</script>
+</body>
+
+
+
+<!-- Mirrored from arimas.org/college/student/login.php by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 04 Sep 2021 19:28:15 GMT -->
+</html>
